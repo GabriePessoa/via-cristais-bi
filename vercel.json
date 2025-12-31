@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_GEMINI_API_KEY": "@gemini_api_key",
+    "API_KEY": "@gemini_api_key"
+  }
+}

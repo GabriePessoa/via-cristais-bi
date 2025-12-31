@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_GEMINI_API_KEY = "placeholder"
+  API_KEY = "placeholder"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
